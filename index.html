@@ -83,7 +83,7 @@
               </button>
               <form class="modal-form">
                 <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
-                <label class="modal-label">
+              <div class="modal-privat"> <label class="modal-label">
                   Имя
                   <span class="modal-form-wrapper">
                  <input type="text" class="modal-input" name="user-name" minlength="2" pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Имя должно содержать символы кириллицы или латиницы" required>
@@ -114,9 +114,12 @@
                  Комментарий
                 <textarea name="user-message" class="modal-massage" placeholder="Введите текст"></textarea>
                </label>
+              </div>
+              <div class="modal-check">
                 <input type="checkbox" class="modal-checkbox visually-hidden" id="accept-policy">
                 <label for="accept-policy" class="modal-checkbox-label">Соглашаюсь с рассылкой и принимаю &nbsp;<a href="" class="modal-accept-policy">Условия договора</a>
                 </label>
+              </div>
                  <button type="submit" class="modal-button">Отправить</button>
               </form>
            </div>
