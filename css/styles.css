@@ -263,6 +263,9 @@ img {
   outline: none;
   border-color: var(--accent-color);
 }
+
+
+
 .modal-label{
   margin-bottom: 10px;
   font-size: 12px;
@@ -289,6 +292,7 @@ img {
 .modal-button-x:focus .modal-close-x,
 .modal-button-x:hover .modal-close-x{
   fill: var(--accent-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-massage{
@@ -371,6 +375,12 @@ img {
 .modal-button:focus {
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   background-color: #188CE8;
+}
+.modal-button:hover,
+.modal-button:focus {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .modal-privat{
   margin-left: 40px;
