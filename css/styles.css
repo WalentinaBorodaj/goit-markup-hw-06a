@@ -286,7 +286,8 @@ img {
 .modal-input:focus + .modal-icon{
   fill: var(--accent-color);
 }
-.modal-button-x:focus .modal-close-x{
+.modal-button-x:focus .modal-close-x,
+.modal-button-x:hover .modal-close-x{
   fill: var(--accent-color);
 }
 
